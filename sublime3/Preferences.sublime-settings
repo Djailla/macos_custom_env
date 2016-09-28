@@ -1,16 +1,39 @@
 {
-	"draw_white_space": "selection",
-	"ensure_newline_at_eof_on_save": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"rulers":
-	[
-		79
-	],
-	"shift_tab_unindent": true,
-	"show_full_path": true,
-	"trim_trailing_white_space_on_save": true
+    "always_show_minimap_viewport": true,
+    "bold_folder_labels": true,
+    "caret_style": "solid",
+    "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+    "draw_minimap_border": true,
+    "ensure_newline_at_eof_on_save": true,
+    "folder_exclude_patterns":
+    [
+        ".svn",
+        ".git",
+        ".hg",
+        "CVS",
+        "__pycache__"
+    ],
+    "font_face": "Hack",
+    "font_options":
+    [
+        "subpixel_antialias"
+    ],
+    "font_size": 12,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "indent_guide_options":
+    [
+        "draw_active",
+        "draw_normal"
+    ],
+    "indent_to_bracket": true,
+    "shift_tab_unindent": true,
+    "soda_classic_tabs": true,
+    "soda_folder_icons": false,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "wrap_width": 80
 }

@@ -1,8 +1,11 @@
 [alias]
+    amend = commit --amend
     b = branch -av
     ll = log --branches --remotes --graph --pretty=format:'%Cred%h%Creset - %s %C(bold blue)<%an>%Creset %Cgreen(%cr)%C(yellow)%d%Creset'
     l  = log --branches --remotes --graph --pretty=format:'%Cred%h%Creset - %s %C(bold blue)<%an>%Creset %Cgreen(%cr)%C(yellow)%d%Creset' --max-count=20
     s = status
     d = diff
     ds = diff --staged
+    dic = diff --cached
     co = checkout
+    undo = git reset --soft HEAD^

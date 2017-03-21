@@ -2,7 +2,7 @@
     amend = commit --amend
     b = branch -av
     ll = log --branches --remotes --graph --pretty=format:'%Cred%h%Creset - %s %C(bold blue)<%an>%Creset %Cgreen(%cr)%C(yellow)%d%Creset'
-    l  = log --branches --remotes --graph --pretty=format:'%Cred%h%Creset - %s %C(bold blue)<%an>%Creset %Cgreen(%cr)%C(yellow)%d%Creset' --max-count=20
+    l  = log --branches --remotes --graph --pretty=format:'%Cred%h%Creset - %s %C(bold blue)<%an>%Creset %Cgreen(%cr)%C(yellow)%d%Creset' --max-count=40
     s = status
     d = diff
     ds = diff --staged

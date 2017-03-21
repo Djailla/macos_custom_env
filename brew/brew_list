@@ -1,0 +1,18 @@
+⇒ brew list
+ansible				gsettings-desktop-schemas	libusb-compat			python
+atk				gtk+3				libyaml				python3
+cairo				gtksourceview3			md5sha1sum			readline
+coreutils			harfbuzz			meld				ruby
+dirmngr				hicolor-icon-theme		openssl				shared-mime-info
+fmdiff				htop				openssl@1.1			sqlite
+fontconfig			icu4c				pango				tree
+freetype			jpeg				pass				vim
+gdbm				libassuan			pcre				wget
+gdk-pixbuf			libepoxy			perl				woof
+gettext				libffi				pinentry			xz
+glib				libgcrypt			pixman				zsh
+gnome-icon-theme		libgpg-error			pkg-config			zsh-autosuggestions
+gnu-getopt			libksba				pth				zsh-completions
+gnupg2				libpng				pwgen
+gobject-introspection		libtiff				py2cairo
+gpg-agent			libusb				pygobject3

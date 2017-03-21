@@ -1,8 +1,9 @@
 alias vi='vim'
 
+alias ls='/usr/local/Cellar/coreutils/8.25/bin/gls --color'
 alias l='ls -Gh'
-alias ll='ls -l'
-alias la='ls -A'
+alias ll='ls -lGh'
+alias la='ls -AGh'
 
 alias grep="grep --color"
 alias grepi="grep -i"
@@ -16,7 +17,3 @@ alias 'ps?'='ps ax | grep -i '
 
 alias tkdiff="git difftool -y"
 alias tksvn="svn diff --diff-cmd fmdiff"
-
-function sssh () {
-    ssh -p 2222 root@192.168.8.$1
-}

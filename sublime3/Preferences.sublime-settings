@@ -10,6 +10,7 @@
         ".svn",
         ".git",
         ".hg",
+        ".env",
         "CVS",
         "__pycache__"
     ],
@@ -35,5 +36,5 @@
     "soda_folder_icons": false,
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true,
-    "wrap_width": 80
+    "rulers": [80],
 }

@@ -21,6 +21,3 @@ export LSCOLORS=exfxcxdxbxegedabagacad
 # Add python / virtualenv helpers
 export WORKON_HOME=~/Workspace/virtual
 source /usr/local/bin/virtualenvwrapper.sh
-
-# added by Miniconda2 4.1.11 installer
-export PATH="/Users/b.vallet/miniconda2/bin:$PATH"

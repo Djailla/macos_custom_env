@@ -4,7 +4,22 @@ export VIRTUAL_ENV_DISABLE_PROMPT=1
 export PIP_REQUIRE_VIRTUALENV=true
 
 ZSH_THEME="djailla"
-plugins=(git)
+plugins=(
+   git
+   colored-man-pages
+   zsh-syntax-highlighting
+#   zsh-autosuggestions
+)
 
 source $ZSH/oh-my-zsh.sh
-source $HOME/.alias
+
+# HSTR configuration - add this to ~/.bashrc
+alias hh=hstr                     # hh to be alias for hstr
+export HISTFILE=~/.zsh_history    # ensure history file visibility
+export HSTR_CONFIG=hicolor        # get more colors
+bindkey -s "\C-r" "\eqhstr\n"     # bind hstr to Ctrl-r (for Vi mode check doc)
+
+alias workon='source .venv/bin/activate'
+alias makenv='virtualenv -p python3.6 .venv'
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

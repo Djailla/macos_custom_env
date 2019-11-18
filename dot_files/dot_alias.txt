@@ -8,12 +8,3 @@ alias la='ls -AGh'
 alias grep="grep --color"
 alias grepi="grep -i"
 alias 'ps?'='ps ax | grep -i '
-
-#alias svs="svn stat | grep -v \"? \""
-#alias tkdiff="svn diff --diff-cmd fmdiff"
-#alias tksvn="svn diff --diff-cmd fmdiff"
-#alias spg="svn pg svn:externals"
-#alias spe="svn pe svn:externals"
-
-alias tkdiff="git difftool -y"
-alias tksvn="svn diff --diff-cmd fmdiff"

@@ -1,18 +1,30 @@
 ⇒ brew list
-ansible				gsettings-desktop-schemas	libusb-compat			python
-atk				gtk+3				libyaml				python3
-cairo				gtksourceview3			md5sha1sum			readline
-coreutils			harfbuzz			meld				ruby
-dirmngr				hicolor-icon-theme		openssl				shared-mime-info
-fmdiff				htop				openssl@1.1			sqlite
-fontconfig			icu4c				pango				tree
-freetype			jpeg				pass				vim
-gdbm				libassuan			pcre				wget
-gdk-pixbuf			libepoxy			perl				woof
-gettext				libffi				pinentry			xz
-glib				libgcrypt			pixman				zsh
-gnome-icon-theme		libgpg-error			pkg-config			zsh-autosuggestions
-gnu-getopt			libksba				pth				zsh-completions
-gnupg2				libpng				pwgen
-gobject-introspection		libtiff				py2cairo
-gpg-agent			libusb				pygobject3
+ack             fd              glib            icu4c           libtiff         memcached       openssl@1.1     qt              unixodbc
+aurora-cli      freetds         gnu-getopt      jpeg            libtool         msgpack         pcre            readline        watch
+autoconf        freetype        gnu-tar         jq              libusb          mydumper        pgcli           sdl2            webp
+bat             fzf             gource          libevent        lsd             mysql-client    pgweb           sdl2_image      xz
+boost           gdbm            groonga         libffi          mariadb         ncurses         pkg-config      sqlite          yank
+cookiecutter    gettext         hadoop          libmagic        maven           node            postgresql      tig
+dos2unix        git-flow-avh    hstr            libpng          mecab           oniguruma       pypy3           tmux
+exa             glew            htop            libpq           mecab-ipadic    openssl         python          tree
+
+
+####################
+### brew install ###
+####################
+
+ack
+bat
+dos2unix
+fd
+fzf
+htop
+maven
+node
+python3
+sqlite
+tig
+tree
+watch
+wget
+zsh
